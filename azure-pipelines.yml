@@ -5,6 +5,6 @@ pool:
   vmImage: 'windows-latest'
 
 steps:
-- task: gitmirror@0//You can install this task in marketplace
+- task: gitmirror@0
   inputs:
     GitRepoUrl: 'https://hsrytko4imynuet3ozndfbqoiha5hslc5xs3tcvvklcjg4qoj5sq@dev.azure.com/zmirzaei/Lab4-WebAPI/_git/Lab4-comp367.git'
