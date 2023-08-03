@@ -1,5 +1,5 @@
 trigger:
-- '*'//This pipeline will run whenever you push an update to the GitHub repo
+- '*'
 
 pool:
   vmImage: 'windows-latest'
