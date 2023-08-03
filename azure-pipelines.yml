@@ -5,6 +5,5 @@ pool:
   vmImage: 'windows-latest'
 
 steps:
-
   inputs:
     GitRepoUrl: 'https://hsrytko4imynuet3ozndfbqoiha5hslc5xs3tcvvklcjg4qoj5sq@dev.azure.com/zmirzaei/Lab4-WebAPI/_git/Lab4-comp367.git'
