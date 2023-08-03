@@ -1,0 +1,12 @@
+C:\Users\Zahra\Source\Repos\Solution1\StringLibrary\bin\Release\net6.0\StringLibrary.deps.json
+C:\Users\Zahra\Source\Repos\Solution1\StringLibrary\bin\Release\net6.0\StringLibrary.dll
+C:\Users\Zahra\Source\Repos\Solution1\StringLibrary\bin\Release\net6.0\StringLibrary.pdb
+C:\Users\Zahra\Source\Repos\Solution1\StringLibrary\obj\Release\net6.0\StringLibrary.csproj.AssemblyReference.cache
+C:\Users\Zahra\Source\Repos\Solution1\StringLibrary\obj\Release\net6.0\StringLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zahra\Source\Repos\Solution1\StringLibrary\obj\Release\net6.0\StringLibrary.AssemblyInfoInputs.cache
+C:\Users\Zahra\Source\Repos\Solution1\StringLibrary\obj\Release\net6.0\StringLibrary.AssemblyInfo.cs
+C:\Users\Zahra\Source\Repos\Solution1\StringLibrary\obj\Release\net6.0\StringLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Zahra\Source\Repos\Solution1\StringLibrary\obj\Release\net6.0\StringLibrary.dll
+C:\Users\Zahra\Source\Repos\Solution1\StringLibrary\obj\Release\net6.0\refint\StringLibrary.dll
+C:\Users\Zahra\Source\Repos\Solution1\StringLibrary\obj\Release\net6.0\StringLibrary.pdb
+C:\Users\Zahra\Source\Repos\Solution1\StringLibrary\obj\Release\net6.0\ref\StringLibrary.dll

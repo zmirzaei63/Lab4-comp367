@@ -1,8 +1,3 @@
-C:\Users\Zahra\Source\Repos\Solution1\ShowCase\obj\Debug\net6.0\ShowCase.csproj.AssemblyReference.cache
-C:\Users\Zahra\Source\Repos\Solution1\ShowCase\obj\Debug\net6.0\ShowCase.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Zahra\Source\Repos\Solution1\ShowCase\obj\Debug\net6.0\ShowCase.AssemblyInfoInputs.cache
-C:\Users\Zahra\Source\Repos\Solution1\ShowCase\obj\Debug\net6.0\ShowCase.AssemblyInfo.cs
-C:\Users\Zahra\Source\Repos\Solution1\ShowCase\obj\Debug\net6.0\ShowCase.csproj.CoreCompileInputs.cache
 C:\Users\Zahra\Source\Repos\Solution1\ShowCase\bin\Debug\net6.0\ShowCase.exe
 C:\Users\Zahra\Source\Repos\Solution1\ShowCase\bin\Debug\net6.0\ShowCase.deps.json
 C:\Users\Zahra\Source\Repos\Solution1\ShowCase\bin\Debug\net6.0\ShowCase.runtimeconfig.json
@@ -10,6 +5,11 @@ C:\Users\Zahra\Source\Repos\Solution1\ShowCase\bin\Debug\net6.0\ShowCase.dll
 C:\Users\Zahra\Source\Repos\Solution1\ShowCase\bin\Debug\net6.0\ShowCase.pdb
 C:\Users\Zahra\Source\Repos\Solution1\ShowCase\bin\Debug\net6.0\StringLibrary.dll
 C:\Users\Zahra\Source\Repos\Solution1\ShowCase\bin\Debug\net6.0\StringLibrary.pdb
+C:\Users\Zahra\Source\Repos\Solution1\ShowCase\obj\Debug\net6.0\ShowCase.csproj.AssemblyReference.cache
+C:\Users\Zahra\Source\Repos\Solution1\ShowCase\obj\Debug\net6.0\ShowCase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zahra\Source\Repos\Solution1\ShowCase\obj\Debug\net6.0\ShowCase.AssemblyInfoInputs.cache
+C:\Users\Zahra\Source\Repos\Solution1\ShowCase\obj\Debug\net6.0\ShowCase.AssemblyInfo.cs
+C:\Users\Zahra\Source\Repos\Solution1\ShowCase\obj\Debug\net6.0\ShowCase.csproj.CoreCompileInputs.cache
 C:\Users\Zahra\Source\Repos\Solution1\ShowCase\obj\Debug\net6.0\ShowCase.csproj.CopyComplete
 C:\Users\Zahra\Source\Repos\Solution1\ShowCase\obj\Debug\net6.0\ShowCase.dll
 C:\Users\Zahra\Source\Repos\Solution1\ShowCase\obj\Debug\net6.0\refint\ShowCase.dll

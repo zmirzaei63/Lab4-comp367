@@ -1,0 +1,5 @@
+C:\Users\Zahra\Source\Repos\Solution1\StringLibrary\obj\Debug\net472\StringLibrary.csproj.AssemblyReference.cache
+C:\Users\Zahra\Source\Repos\Solution1\StringLibrary\obj\Debug\net472\StringLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Zahra\Source\Repos\Solution1\StringLibrary\obj\Debug\net472\StringLibrary.AssemblyInfoInputs.cache
+C:\Users\Zahra\Source\Repos\Solution1\StringLibrary\obj\Debug\net472\StringLibrary.AssemblyInfo.cs
+C:\Users\Zahra\Source\Repos\Solution1\StringLibrary\obj\Debug\net472\StringLibrary.csproj.CoreCompileInputs.cache
