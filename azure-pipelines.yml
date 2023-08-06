@@ -1,10 +1,65 @@
 trigger:
-- main
+  branches:
+    include:
+      - main  # Change this to the name of your main branch, e.g., master
+
 
 pool:
-  vmImage: 'windows-latest'
+  name: 'Default'
+
+variables:
+  buildConfiguration: 'Release'
+  major: '1'
+  minor: '0'
+  revision: $[counter(variables['minor'], 1)] # This will get reset every time minor gets bumped.
+  nugetVersion: '$(major).$(minor).$(revision)'
+
 
 steps:
-- task: gitmirror@0
+- task: UseDotNet@2
   inputs:
-    GitRepoUrl: 'https://hsrytko4imynuet3ozndfbqoiha5hslc5xs3tcvvklcjg4qoj5sq@dev.azure.com/zmirzaei/Lab4-WebAPI/_git/Lab4-comp367.git'
+    version: '6.x'
+
+- task: NuGetToolInstaller@1
+
+- task: NuGetCommand@2
+  inputs:
+    command: 'restore'
+    restoreSolution: 'ClassLibraryProjects.sln'  # Change this to your solution file
+
+- task: VSBuild@1
+  inputs:
+    solution: 'ClassLibraryProjects.sln'  # Change this to your solution file
+    platform: 'Any CPU'
+    configuration: '$(buildConfiguration)'
+
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'pack'
+    packagesToPack: 'StringLibrary/StringLibrary.csproj'
+    packDirectory: '$(build.artifactStagingDirectory)/nuget'
+    versioningScheme: 'byEnvVar'
+    versionEnvVar: 'nugetVersion'
+# - task: DotNetCoreCLI@2
+#   inputs:
+#     command: 'pack'
+#     packagesToPack: 'StringLibrary/StringLibrary.csproj'
+#     packDirectory: '$(build.artifactStagingDirectory)/nuget'
+#     versioningScheme: 'byEnvVar'
+#     versionEnvVar: 'BuildVersion'
+- task: PublishBuildArtifacts@1
+  inputs:
+    PathtoPublish: '$(build.artifactStagingDirectory)/nuget'
+    ArtifactName: 'nuget'
+
+- task: NuGetAuthenticate@0
+  inputs:
+    forceReinstallCredentialProvider: true
+
+- task: NuGetCommand@2
+  inputs:
+    command: 'push'
+    packagesToPush: '$(build.artifactStagingDirectory)/nuget/*.nupkg'
+    nuGetFeedType: 'internal'
+    publishVstsFeed: '80bba226-9d98-45d3-af96-9421aa61a833/65b57582-eeb6-4b70-9c17-93976948bcca'
+    allowPackageConflicts: false
